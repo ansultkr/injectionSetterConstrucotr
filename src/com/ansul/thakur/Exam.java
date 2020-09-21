@@ -10,6 +10,9 @@ public class Exam {
 		Student s = context.getBean("stud", Student.class);
 		s.displayStudentInfo();
 		
+		Student s1 = context.getBean("stud1", Student.class);
+		s1.displayStudentInfo();
+		
 		
 	}
 
