@@ -9,8 +9,7 @@ public class Exam {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		Student s = context.getBean("stud", Student.class);
 		s.displayStudentInfo();
-		Student s2 = context.getBean("stud2", Student.class);
-		s2.displayStudentInfo();
+		
 		
 	}
 

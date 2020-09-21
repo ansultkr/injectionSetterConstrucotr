@@ -6,15 +6,7 @@
 					http://www.springframework.org/schema/beans/spring-beans.xsd">
 					
 <bean id="stud" class = "com.ansul.thakur.Student">
-	<property name="studentName" value= "Ansul Thakuraiyan"/>
-	<property name="id" value= "123"/>
+	<constructor-arg name="studentName" value= "Ansul Thakuraiyan"/>
+	<constructor-arg name="id" value= "123"/>
 </bean>
-
-<bean id="stud2" class = "com.ansul.thakur.Student">
-	<property name="studentName" value= "Ishan Jamwal"/>
-	<property name="id" value= "234"/>
-</bean>
-
-
-					
 </beans>
